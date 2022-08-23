@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head section holds info for the browser. -->
+    <head>
+        <!-- Page title and custom styling file. -->
+		<title>My First Page</title>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        
+        <!-- Info for the browser to decode our HTML code. -->
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap files -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- Body holds the content of the page. -->
+    <body>
+        <header>
+             <!-- Navbar -->
+    <!-- This builds a blank navbar with some styling, such as a light color. -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light justify-content-center">
+        <!-- This is the "brand" that goes all the way to the left. -->
+        <a class="navbar-brand d-flex w-50 mr-auto" href="index.html"> DAVINO </a>
+
+        <!-- This button replaces the links list when in mobile. -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="nav">
+            <!-- Create an unordered list to hold our links and format it automatically. -->
+            <ul class="nav navbar-nav mr-auto justify-content-end">
+                <!-- All the links in the navbar will be listed below as list items using the <li> tag. -->
+                
+                <li class="nav-item">
+                    <!-- To make them into links, we use the <a href="link"> tag. -->
+                    <!-- The class="nav-link" part just makes them display nicely. -->
+                    <a class="nav-link" href="index.html"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html"> About </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html"> Shop </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html"> Blog </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"> Contact </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+        
+    <article>
+
+        <h1> Hello World! </h1>
+        
+        <img 
+        src="./img/home.png"
+        alt="The Truth"
+        height=""
+        width=""
+        >
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </article>  
+    </body>
+
+</html>
